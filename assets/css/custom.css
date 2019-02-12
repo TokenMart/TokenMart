@@ -1,0 +1,153 @@
+/*==================================================================================
+    Custom Stylesheet (Any custom styling you want to apply should be defined here).
+====================================================================================*/
+#zeroExInstant div {
+    z-index: 2000;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 40em){
+    #zeroExInstant .cXaLuY.cXaLuY {
+        display: block;
+        z-index: 9999;
+    }
+}
+
+canvas{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.cointable-title {
+    color: #fff;
+    font-weight: 700;
+}
+
+.banner--wrapper-area .coinlist-wrapper {
+    padding-top: 0;
+    margin-top: -110px;
+}
+
+.cointable-sub-title {
+    color: #fff;
+}
+
+.coinKind {
+    width: 20%;
+}
+
+.Extra--feature-area.banner.home-banner2 {
+    padding-top: 0px;
+    padding-bottom: 140px;
+    margin-top: -165px;
+}
+
+.Extra--feature-area .padding-adjust {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.Extra--feature-area .container .feature--area-wrap {
+    padding: 10px 20px 10px;
+    text-align: center;
+}
+
+.Extra--feature-area .container .feature--area-wrap .features-icon {
+    margin-bottom: 5px;
+    margin-right: 0px;
+}
+
+.feature--area-wrap .features-details h4 {
+    color: #202e39;
+}
+        
+.feature--area-wrap .features-details a {
+    color: #53e1ff;
+}
+
+.item-container {
+    text-align: center;
+}
+
+.item-container .item {
+    background: #3c62e3;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.item-container .single--update-wrap:after {
+    width: 0;
+}
+
+.item-container .single--update-wrap {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30%;
+    text-align: left;
+}
+
+.item-container .single--update-wrap h4 {
+    color: #fff
+}
+        
+.item-container .single--update-wrap p{
+    font-size: 17px;
+}
+
+.coinlist-area .mobile-image img {
+    margin-left: -115px;
+}
+
+.coinlist-wrapper .app-overlay-bg {
+    width: 43%;
+}
+
+.footer-logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.container .wait-me {
+    margin-top: 0;
+}
+        
+.container .wait-me h3 {
+    color: #fff;
+}
+
+.keep-in h2,p {
+    color: #fff !important;
+}
+        
+.keep-in p span{
+    color: #53e1ff;
+}
+
+.tarms-condition a {
+    color: #53e1ff;
+}
+
+.home-banner2 .banner--inner-text p.word_low {
+    margin-bottom: 0;
+}
+
+.wait-me .word_title {
+    margin-top: 30px;
+}
+            
+.home-banner2 .banner--inner-text p.word_low.paragraph {
+    margin-bottom: 15px;
+}
+
+.privacy_title {
+    text-align: center;
+}
+
+.banner--wrapper-area .banner.home-banner2 {
+    background: linear-gradient(to right, #0e035c 0%,#25256e 100%);
+}
