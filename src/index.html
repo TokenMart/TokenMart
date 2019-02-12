@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Document Title -->
+    <title>Token Mart</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+
+    <!-- CSS Files -->
+    <!--==== Google Fonts ====-->
+    <link href="https://fonts.googleapis.com/css?family=Dosis:500,600,700,800&&Poppins:300,400,500,600,900" rel="stylesheet">
+    
+    <!--==== Bootstrap css file ====-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--==== Font-Awesome css file ====-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Owl Carusel css file -->
+    <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.min.css">
+
+    <!-- Magnific-Popup css file -->
+    <link rel="stylesheet" href="plugins/Magnific-Popup/magnific-popup.css">
+
+    <!--==== Style css file ====-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--==== Responsive css file ====-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!--==== Custom css file ====-->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body class="home2-vs1-bg">
+
+    <!-- Preloader -->
+    <div class="preLoader">
+        <div class="preload-img">
+            <img src="img/favicon.png" alt="" class="pre-img">
+        </div>
+    </div>
+    <!-- End Of Preloader -->
+
+    <!-- Start main wrapper -->
+    <div class="main-wrapper home-page2">
+        <!-- Main header -->
+    <header class="header">
+        <!-- Start Header Navbar-->
+        <div class="main-header main-header2">
+            <div class="container">
+                <div class="row align-items-center border-bottom1">
+                    <div class="col-xl-3 col-lg-2 col-md-4 col-sm-5 col-7">
+                        <!-- Logo -->
+                        <div class="logo"  data-animate="fadeInUp" data-delay=".65">
+                            <a href="/">
+                                <img class='default-logo' src="img/logo4.png" data-rjs="2" alt="tokenmart">
+                                <img class="sticky-logo" src="img/tokenmart-logo.png" data-rjs="2" alt="tokenmart">
+                            </a>
+                        </div>
+                        <!-- End of Logo -->
+                    </div>
+                    <div class="col-xl-9 col-lg-10 col-md-8 col-sm-7 col-5 menu-button">
+                        <div class="menu--inner-area clear-fix">
+                            <div class="menu-wraper">
+                                 <nav data-animate="fadeInUp" data-delay=".80">
+                                    <!-- Header-menu -->
+                                    <div class="header-menu dosis">
+                                    <ul>
+                                        <li class="active"><a href="#">Home</a></li></li>
+                                        <li><a href="/markets">Markets</a></li>
+                                        <li><a href="/block_search">Block Search</a></li>
+                                        <li><a href="/learn">Learn</a></li>
+                                        <li><a href="/support">Support</a></li>
+                                        <li><a href="/contact_us">Contact Us</a></li>
+                                    </ul>
+                                    </div>
+                                    <!-- End of Header-menu -->
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Navbar-->
+    </header>
+    <!-- End of Main header -->
+    <div id="exchange-modal" class="hidden"></div>
+    <!-- banner section -->
+     <section class="banner--wrapper-area  banner-home2">
+        <!-- banner home2 -->
+         <div class="banner home-banner2">
+            <!-- banner bit coin Shapes -->
+            <div class="bit-coin-shapes">
+                <img class="sp1 cmn-shapes spin" src="img/banner/banner-shape/icon.light.01.png" alt="" >
+                <img class="sp2 cmn-shapes rotate3d" src="img/banner/banner-shape/icon.light.02.png" alt="" >
+                <img class="sp3 cmn-shapes spin" src="img/banner/banner-shape/icon.light.03.png" alt="" >
+                <img class="sp4 cmn-shapes rotate2d" src="img/banner/banner-shape/icon.light.04.png" alt="" >
+                <img class="sp5 cmn-shapes rotate3d" src="img/banner/banner-shape/icon.light.05.png" alt="" >
+                <img class="sp6 cmn-shapes spin" src="img/banner/banner-shape/icon.light.06.png" alt="" >
+                <img class="sp7 cmn-shapes rotate3d" src="img/banner/banner-shape/icon.light.07.png" alt="" >
+                <img class="sp8 cmn-shapes rotate3d" src="img/banner/banner-shape/icon.light.08.png" alt="" >
+                <img class="sp9 cmn-shapes rotate3d" src="img/banner/banner-shape/icon.light.03.png" alt="" >
+                <img class="sp10 cmn-shapes rotate3d" src="img/banner/banner-shape/icon.light.04.png" alt="" >
+                <img class="sp11 cmn-shapes rotate3d" src="img/banner/banner-shape/icon.light.05.png" alt="" >
+            </div>
+             <!--End of banner bit coin Shapes -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-xl-6 col-md-6">
+                        <!-- banner text inner -->
+                        <div class="banner--inner-text">
+                            <h1 data-animate="fadeInUp" data-delay='.2'>The Token Economy is Yours to Discover</h1>
+                            <p data-animate="fadeInUp" data-delay='.4'>TokenMart provides you with instant access to a wide 
+                            variety of tokens. With Ethereum, you can conveniently 
+                            pay for tokens via your safe and secure MetaMask wallet.
+                            Cutting-edge technology automatically finds the best prices 
+                            within the 0x (ZRX) network and, with the click of a button, 
+                            tokens are made available to you at lightning speeds.</p>
+                            <a class="btn style-1 btn-transparent waves-effect" data-animate="fadeInUp" data-delay='.6' onClick="openMetaMask()">Buy Token</a>
+                        </div>
+                        <!-- banner text inner -->
+                    </div>
+                    <div class="col-lg-6 col-xl-6 col-md-6">
+                        <canvas id="canvas" width="300" height="300"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of banner home 01 -->
+     </section>
+    <!-- End of banner section -->
+
+    <section class="banner--wrapper-area  banner-home2">
+        <div class="banner home-banner2 coinlist-wrapper">
+            <div class="coinlist-area container">
+                <div class="row">
+                    <div class="col-lg-12 col-xl-12 col-md-12 table-responsive">
+                        <h2 class="cointable-title">Ethereum Token Market Capitalization</h2>
+                        <h4 class="cointable-sub-title">Top 40 ERC-20 Tokens</h4>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col" colspan="2" className="coinKind">Coin</th>
+                                    <th scope="col">USD</th>
+                                    <th scope="col">CAD</th>
+                                    <th scope="col">BTC</th>
+                                    <th scope="col">ETH</th>
+                                    <th scope="col">EUR</th>
+                                    <th scope="col">GBP</th>
+                                    <th scope="col">24h Volume</th>
+                                    <th scope="col">Mkt Cap</th>
+                                </tr>
+                            </thead>
+                            <tbody id="coinListTable1">
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Extra featurs area -->
+    <section class="banner--wrapper-area  banner-home2">
+        <div class="Extra--feature-area banner home-banner2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 padding-adjust">
+                        <div class="feature--area-wrap">
+                            <!-- Single features -->
+                            <div class="single--features-wrap">
+                                <div class="features-icon">
+                                    <img src="img/icons/feature-icon1.svg" class="svg" alt="">
+                                </div>
+                                <div class="features-details">
+                                    <h4>Safety First</h4>
+                                    <p>Security is our top priority and you are the
+                                        only one with access to your private key. 
+                                        TokenMart makes your trading experience
+                                        more seamless and secure.</p>
+                                </div>
+                            </div>
+                        </div>
+                            <!--End of Single features -->
+                    </div>
+                    <div class="col-lg-4 padding-adjust">
+                        <div class="feature--area-wrap">
+                        <!-- Single features -->
+                            <div class="single--features-wrap">
+                                <div class="features-icon">
+                                    <img src="img/icons/feature-icon2.svg" class="svg" alt="">
+                                </div>
+                                <div class="features-details">
+                                    <h4>MetaMask Wallet</h4>
+                                    <p>Buy dozens of ERC-20 and ERC 721 
+                                        tokens with Ethereum, instantly and easily. 
+                                        Trade by just connecting to your MetaMask
+                                        wallet. Need one? Click here.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End of Single features -->
+                    </div>
+                    <div class="col-lg-4 padding-adjust">
+                        <div class="feature--area-wrap">
+                        <!-- Single features -->
+                            <div class="single--features-wrap">
+                                <div class="features-icon">
+                                    <img src="img/icons/feature-icon3.svg" class="svg" alt="">
+                                </div>
+                                <div class="features-details">
+                                    <h4>You're the Boss</h4>
+                                    <p>Be in complete control of your funds. 
+                                        Transaction signing is done within the 
+                                        MetaMask extension and private keys 
+                                        are never sent to the browser.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End of Single features -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of Extra featurs area -->
+
+    <section class="banner--wrapper-area  banner-home2">
+            <div class="banner home-banner2 coinlist-wrapper">
+                <div class="coinlist-area container">
+                    <div class="row">
+                        <div class="col-lg-12 col-xl-12 col-md-12 table-responsive">
+                            <table class="table">
+                                <tbody id="coinListTable2">
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="banner--wrapper-area  banner-home2">
+    <!-- banner home2 -->
+        <div class="banner home-banner2 coinlist-wrapper">
+            <!-- banner bit coin Shapes -->
+            <div class="bit-coin-shapes">
+                <img class="sp1 cmn-shapes spin" src="img/banner/banner-shape/bit-sshapes1.png" alt="" >
+                <img class="sp2 cmn-shapes rotate3d" src="img/banner/banner-shape/bit-sshapes2.png" alt="" >
+                <img class="sp3 cmn-shapes spin" src="img/banner/banner-shape/bit-sshapes3.png" alt="" >
+                <img class="sp4 cmn-shapes rotate2d" src="img/banner/banner-shape/bit-sshapes4.png" alt="" >
+                <img class="sp5 cmn-shapes rotate3d" src="img/banner/banner-shape/bit-sshapes5.png" alt="" >
+                <img class="sp6 cmn-shapes spin" src="img/banner/banner-shape/bit-sshapes6.png" alt="" >
+                <img class="sp7 cmn-shapes rotate3d" src="img/banner/banner-shape/bit-sshapes7.png" alt="" >
+                <img class="sp8 cmn-shapes rotate3d" src="img/banner/banner-shape/bit-sshapes8.png" alt="" >
+                <img class="sp9 cmn-shapes rotate3d" src="img/banner/banner-shape/bit-sshapes3.png" alt="" >
+                <img class="sp10 cmn-shapes rotate3d" src="img/banner/banner-shape/bit-sshapes4.png" alt="" >
+                <img class="sp11 cmn-shapes rotate3d" src="img/banner/banner-shape/bit-sshapes5.png" alt="" >
+            </div>
+                <!--End of banner bit coin Shapes -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-xl-6 col-md-6 item-container">
+                        <div class="row">
+                            <div class="col-lg-12 col-xl-12 col-md-12">
+                                <div class="row">
+                                    <div class="col-lg-6 col-xl-6 col-md-6 offset-2">
+                                        <div class="item">
+                                            <div class="single--update-wrap" id="btc_status">
+                                                <h4>BTC</h4>
+                                                <p><span class='down-icon'><i class="fa fa-caret-down" aria-hidden="true"></i></span>2.61</p>
+                                                <p>$ 6,825.77</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-xl-12 col-md-12">
+                                <div class="row">
+                                    <div class="col-lg-6 col-xl-6 col-md-6 offset-2">
+                                        <div class="item">
+                                            <div class="single--update-wrap" id="eth_status">
+                                                <h4>ETH</h4>
+                                                <p><span class='up-icon'><i class="fa fa-caret-up" aria-hidden="true"></i></span>2.61</p>
+                                                <p>$ 6,825.77</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                       
+                    </div>
+                    <div class="col-lg-6 col-xl-6 col-md-6">
+                        <div class="banner2-image-wrap" data-animate="fadeInUp" data-delay='.2'>
+                            <!-- overlay bubble -->
+                        <div class="overlay-bubble">
+                            <img src="img/dot.png" alt="" class="dot-dot">
+                            <img src="img/banner/dot-sml.png" alt="" class="dot-small">
+                        </div>
+                        <!--End of overlay bubble -->
+
+                        <!-- banner images -->
+                        <div class="bannar-image-inner">
+                            <img src="img/banner/home2-bg.png" alt="banner image">
+                            <img src="img/banner/h2-bit-l.png" alt="" class="h2-move-1">
+                            <img src="img/banner/h2-bit-m.png" alt="" class="h2-move-2">
+                            <img src="img/banner/h2-bit-s.png" alt="" class="h2-move-3">
+                        </div>
+                        <!-- End of banner images -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--End of banner home 01 -->
+    </section>
+
+    <section class="banner--wrapper-area  banner-home2">
+        <div class="banner home-banner2 coinlist-wrapper">
+            <div class="coinlist-area container">
+                <div class="row">
+                    <div class="col-lg-12 col-xl-12 col-md-12 table-responsive">
+                        <table class="table">
+                            <tbody id="coinListTable3">
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner--wrapper-area  banner-home2">
+        <div class="banner home-banner2 coinlist-wrapper app--full-width" style="margin-bottom: 100px;">
+            <div class="bit-coin-shapes">
+                <img class="sp1 cmn-shapes spin" src="img/banner/banner-shape/icon.light.01.png" alt="" >
+                <img class="sp2 cmn-shapes rotate3d" src="img/banner/banner-shape/icon.light.02.png" alt="" >
+                <img class="sp3 cmn-shapes spin" src="img/banner/banner-shape/icon.light.03.png" alt="" >
+                <img class="sp4 cmn-shapes rotate2d" src="img/banner/banner-shape/icon.light.04.png" alt="" >
+                <img class="sp5 cmn-shapes rotate3d" src="img/banner/banner-shape/icon.light.05.png" alt="" >
+                <img class="sp6 cmn-shapes spin" src="img/banner/banner-shape/icon.light.06.png" alt="" >
+                <img class="sp7 cmn-shapes rotate3d" src="img/banner/banner-shape/icon.light.07.png" alt="" >
+                <img class="sp8 cmn-shapes rotate3d" src="img/banner/banner-shape/icon.light.08.png" alt="" >
+                <img class="sp9 cmn-shapes rotate3d" src="img/banner/banner-shape/icon.light.03.png" alt="" >
+                <img class="sp10 cmn-shapes rotate3d" src="img/banner/banner-shape/icon.light.04.png" alt="" >
+                <img class="sp11 cmn-shapes rotate3d" src="img/banner/banner-shape/icon.light.05.png" alt="" >
+            </div>
+            <div class="app-overlay-bg d-lg-block d-none" data-bg-img="img/mobile-bg.png" style="height: 80%;"></div>
+            <div class="coinlist-area container">
+                <div class="row">
+                    <div class="col-lg-7" style="height: 390px;"></div>
+                    <div class="col-lg-5">
+                        <div class="mobile-app">
+                            <div class="mobile-image">
+                                <img src="img/mobile.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner--wrapper-area  banner-home2">
+        <div class="banner home-banner2 coinlist-wrapper">
+            <div class="coinlist-area container">
+                <div class="row">
+                    <div class="col-lg-12 col-xl-12 col-md-12 table-responsive">
+                        <table class="table">
+                            <tbody id="coinListTable4">
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer-type1 pt-80 default-bg1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <!-- single widget -->
+                    <div class="footer-widget">
+                        <!-- footer logo -->
+                        <div class="footer-logo">
+                            <span>TokenMart.io</span>
+                        </div>
+                        <!--End of footer logo -->
+                        <div class="footer-about-text">
+                            <p>Subscribe to our news alerts below: </p>
+                        </div>
+                        <!-- footer mail -->
+                        <div class="footer-mail parsley-validate">
+                            <form action="https://themelooks.us13.list-manage.com/subscribe/post?u=79f0b132ec25ee223bb41835f&amp;id=f4e0e93d1d" method="post"  class="footer-form" novalidate>
+                                <input type="email" placeholder="type your email hear" required>
+                                <button type="submit"><i class="fa fa-envelope" aria-hidden="true"></i></button>
+                            </form>
+                        </div>
+                        <!--End of footer mail -->
+                    </div>
+                    <!--End of single widget -->
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- single widget -->
+                    <div class="footer-widget">
+                        <!-- footer header -->
+                        <div class="footer-header">
+                            <h5>Related Links</h5>
+                            <div class="unerline">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <!--End of footer header -->
+                        <div class="footer-link">
+                            <div class="link-left">
+                                <a href="https://www.youtube.com/watch?v=TDGq4aeevgY"><i class="fa fa-angle-right" aria-hidden="true"></i>What is Ethereum?</a>
+                                <a href="https://www.investopedia.com/terms/c/crypto-token.asp"><i class="fa fa-angle-right" aria-hidden="true"></i>What are Tokens?</a>
+                                <a href="https://cointelegraph.com/explained/erc-20-tokens-explained"><i class="fa fa-angle-right" aria-hidden="true"></i>What is the ERC-20 Standard?</a>
+                                <a href="https://cointelegraph.com/explained/non-fungible-tokens-explained"><i class="fa fa-angle-right" aria-hidden="true"></i>What is the ERC-721 Standard?</a><a href="https://www.youtube.com/watch?v=sRNnpKR_7yY"> (or watch)</a>
+                            </div>
+                            <div class="link-right">
+                                <a href="https://metamask.io"><i class="fa fa-angle-right" aria-hidden="true"></i>What is MetaMask?</a><a href="https://www.youtube.com/watch?v=6Gf_kRE4MJU"> (or watch)</a>
+                                <a href="https://metamask.io"><i class="fa fa-angle-right" aria-hidden="true"></i>Install MetaMask</a>
+                                <a href="/contact_us"><i class="fa fa-angle-right" aria-hidden="true"></i>Advertise</a>
+                                <a href="/contact_us"><i class="fa fa-angle-right" aria-hidden="true"></i>Contact</a>
+                                <a href="https://etherscan.io/"><i class="fa fa-angle-right" aria-hidden="true"></i>Search Transactions</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of single widget -->
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- single widget -->
+                    <div class="footer-widget">
+                        <!-- footer header -->
+                        <div class="footer-header">
+                            <h5>Contact</h5>
+                            <div class="unerline">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <!--End of footer header -->
+                         <div class="footer-about-text">
+                            <p>Our support available to help you 24 hours a day & 7 days a week.</p>
+                        </div>
+                        <!-- contact list -->
+                        <div class="footer-contact-wrap">
+                            <ul class="footer-contact-list list-unstyled">
+                                <li>
+                                    <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                                    Toronto, ON. Canada
+                                </li>
+                                <li>
+                                    <span><i class="fa fa-globe" aria-hidden="true"></i></span>
+                                    <a href="#">info@tokenmart.io</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--End of contact list -->
+
+                    </div>
+                    <!--End of single widget -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-social-area">
+                        <ul class="footer--social-list text-center list-unstyled">
+                             <li>
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-bottom-wrap">
+                        <!-- footer bottom text -->
+                    <div class="footer-bottom-text">
+                        <p>Copyright © 2019 by <strong><a href="#"> TokenMart.io </a></strong></p>
+                    </div>
+                    <!-- End of footer bottom text-->
+
+                    <!-- tarms coandition -->
+                    <div class="tarms-condition">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="/termsofuse">Terms of Use</a>
+                            </li>
+                            <li>
+                                /
+                            </li>
+                            <li>
+                                <a href="/privacy">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                     <!--End of tarms coandition -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End of footer -->
+
+    <!-- back to top -->
+    <div class="back-to-top">
+        <a href="#"><i class="fa fa-chevron-up"></i></a>
+    </div>
+    <!-- back to top -->
+
+    </div>
+    <!-- End of main wrapper -->
+
+
+
+
+    <!-- JS Files -->
+   <!-- ==== JQuery 3.3.1 js file==== -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <!-- ==== Bootstrap js file==== -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- ==== JQuery Waypoint js file==== -->
+    <script src="plugins/waypoints/jquery.waypoints.min.js"></script>
+
+    <!-- ==== Parsley js file==== -->
+    <script src="plugins/parsley/parsley.min.js"></script>
+
+    <!-- ==== Ratina js file==== -->
+    <script src="plugins/retinajs/retina.min.js"></script>
+
+    <!-- ==== parallax js==== -->
+    <script src="plugins/parallax/parallax.js"></script>
+
+    <!-- ==== Owl Carousel js file==== -->
+    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- ====Count down==== -->
+    <script src="plugins/countdown/jquery.countdown.min.js"></script>
+
+    <!-- ====Chart js file ==== -->
+    <script src="plugins/chart-js/Chart.min.js"></script>
+
+    <!-- ==== Menu  js file==== -->
+    <script src="js/menu.min.js"></script>
+
+    <!-- ====Magnific-Popup js file==== -->
+    <script src="plugins/Magnific-Popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- ====Counter js file=== -->
+    <script src="plugins/waypoints/jquery.counterup.min.js"></script>
+
+    <!-- ====matrial js file==== -->
+    <script src="js/matrial.js"></script>
+
+    <script src="https://instant.0x.org/instant.js" /></script>
+    
+    <!-- ==== Script js file==== -->
+    <script src="js/scripts.js"></script>
+
+    <!-- ==== Custom js file==== -->
+    <script src="js/custom.js"></script>
+
+
+</body>
+
+<script type="text/javascript">
+    var tokens = ["eth", "bnb", "usdc", "mkr", "vet", "tusd", "omg", "npxs", "zil", "zrx", "bat", "link", "pax", "icx",	"rep", "r", "ae", "hot", "iost", "snt", "dai" , "ppt", "mco", "aoa", "gnt", "ode", "ht", "dcn", "mana", "nexo", "bnt", "lrc", "xin", "powr", "aion", "wax", "dgd", "poly", "pay", "theta", "elf"];
+
+    console.log(tokens.length);
+
+    var openMetaMask = function () {
+        zeroExInstant.render(
+        {
+            orderSource: 'https://api.radarrelay.com/0x/v2/',
+            affiliateInfo: {
+                feeRecipient: '0x93803ba2d29079480599e2a037a2a40a450f2e2a',
+                feePercentage: 0.04,
+            },
+        },
+        'div#exchange-modal',
+        );
+
+        $("#exchange-modal").removeClass("hidden");
+            
+        if ($("#exchange-modal").html() == "") {
+            zeroExInstant.render(
+            {
+                orderSource: 'https://api.radarrelay.com/0x/v2/',
+                affiliateInfo: {
+                    feeRecipient: '0x93803ba2d29079480599e2a037a2a40a450f2e2a',
+                    feePercentage: 0.04,
+                },
+            },
+            'div#exchange-modal',
+            );
+        }
+    }
+
+    var init = function () {
+        var coinListHtml = "";
+
+        for (var i = 0; i < 10; i ++) {
+            coinListHtml += "<tr><th scope='row'> -- </th><td><div style='width: 25px;'></div></td>";
+            coinListHtml += "<td></td>";
+            coinListHtml += "<td> $ -- </td>";
+            coinListHtml += "<td> $ -- </td>";
+            coinListHtml += "<td> ƀ -- </td>";
+            coinListHtml += "<td> Ξ -- </td>";
+            coinListHtml += "<td> € -- </td>";
+            coinListHtml += "<td> £ -- </td>";
+            coinListHtml += "<td> $ -- </td>";
+            coinListHtml += "<td> $ -- </td></tr>";
+        }
+
+        document.getElementById("coinListTable1").innerHTML = coinListHtml;
+        document.getElementById("coinListTable2").innerHTML = coinListHtml;
+        document.getElementById("coinListTable3").innerHTML = coinListHtml;
+        document.getElementById("coinListTable4").innerHTML = coinListHtml;
+
+        getRateHistory();
+        getCoinsList();
+    }
+
+    var getRateHistory = function () {
+        var today = new Date();
+
+        var startYear = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 14).getFullYear();
+    
+        var startMonth = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 14).getMonth() + 1;
+        if (startMonth < 10)
+            startMonth = "0" + startMonth;
+
+        var startDate = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 14).getDate();
+        if (startDate < 10)
+            startDate = "0" + startDate;
+
+        var endYear = new Date().getFullYear();
+
+        var endMonth = new Date().getMonth() + 1;
+        if (endMonth < 10)
+            endMonth = "0" + endMonth;
+
+        var endDate = new Date().getDate();
+        if (endDate < 10)
+            endDate = "0" + endDate;
+
+        var url = "https://api.nomics.com/v1/exchange-rates/history?key=2018-09-demo-dont-deploy-b69315e440beb145&currency=ETH&start=" + startYear + "-" + startMonth + "-" + startDate + "T00%3A00%3A00Z&end=" + endYear + "-" + endMonth + "-" + endDate + "T00%3A00%3A00Z";
+
+        fetch(url)
+        .then(res => res.json())
+        .then(
+            (result) => {
+
+                var data = [];
+                for (var i = 0; i < result.length; i  ++) {
+                    var item = [];
+                    item.push((new Date(result[i].timestamp).getMonth() + 1) + "/" +new Date(result[i].timestamp).getDate());
+                    item.push(Math.round(result[i].rate * 100) / 100);
+
+                    data.push(item);
+                }
+
+                console.log("data ====> ", data);
+                var chartLabel = [];
+                var chartData = [];
+
+                for (var i = 0; i < data.length; i ++) {
+                    chartLabel.push(data[i][0]);
+                    chartData.push(data[i][1]);
+                }
+
+                var config = {
+                    type: 'line',
+                    data: {
+                        labels: chartLabel,
+                        datasets: [{
+                            label: 'Ethereum Rate',
+                            fill: false,
+                            backgroundColor: "white",
+                            borderColor: "#53e1ff",
+                            data: chartData,
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        tooltips: {
+                            mode: 'index',
+                            intersect: false,
+                        },
+                        hover: {
+                            mode: 'nearest',
+                            intersect: true
+                        },
+                        scales: {
+                            xAxes: [{
+                                display: true,
+                                scaleLabel: {
+                                    display: true,
+                                    labelString: 'Month/Date',
+                                    fontColor: "white"
+                                },
+                                ticks: {
+                                    fontColor: "white"
+                                }
+                            }],
+                            yAxes: [{
+                                display: true,
+                                scaleLabel: {
+                                    display: true,
+                                    labelString: 'Rate',
+                                    fontColor: "white"
+                                },
+                                ticks: {
+                                    fontColor: "white"
+                                }
+                            }]
+                        },
+                        legend: {
+                            labels: {
+                                fontColor: "white"
+                            }
+                        }
+                    }
+                };
+                var ctx = document.getElementById('canvas').getContext('2d');
+			    window.myLine = new Chart(ctx, config);
+            },
+            (error) => {
+                console.log("error====>", error);
+            }
+        )
+    }
+
+    var getCoinsList = function () {
+        fetch("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc")
+        .then(res => res.json())
+        .then(
+            (result) => {
+                var tokenResult = [];
+
+                for (var i = 0; i < result.length; i ++) {
+                    if (tokens.indexOf(result[i].symbol.toLowerCase()) != -1)
+                        tokenResult.push(result[i]);
+                }
+
+                getRateListbyCoin(tokenResult);
+            },
+            (error) => {
+                console.log("error====>", error);
+            }
+        )
+    }
+
+    var getRateListbyCoin = function (marketCap) {
+
+        var btcEthUrl = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum&vs_currencies=USD&include_24hr_change=true";
+
+        fetch(btcEthUrl).then(res => res.json())
+        .then(
+            (result) => {
+                console.log("result====>", result);
+
+                if (result.bitcoin.usd_24h_change > 0) {
+                    var globalBtcOffset = Math.round(result.bitcoin.usd_24h_change * 100) / 100;
+                    var statusHtml = "<h4>BTC</h4><p><span class='up-icon'><i class='fa fa-caret-up' aria-hidden='true'></i></span>" + globalBtcOffset + "</p><p>$ " + result.bitcoin.usd + "</p>"
+
+                    $("#btc_status").html(statusHtml);
+                } else if (result.bitcoin.usd_24h_change < 0) {
+                    var globalBtcOffset = Math.round(result.bitcoin.usd_24h_change * 100) / 100 * -1
+                    var statusHtml = "<h4>BTC</h4><p><span class='down-icon'><i class='fa fa-caret-down' aria-hidden='true'></i></span>" + globalBtcOffset + "</p><p>$ " + result.bitcoin.usd + "</p>"
+
+                    $("#btc_status").html(statusHtml);
+                }
+
+                if (result.ethereum.usd_24h_change > 0) {
+                    var globalEthOffset = Math.round(result.ethereum.usd_24h_change * 100) / 100;
+                    var statusHtml = "<h4>ETH</h4><p><span class='up-icon'><i class='fa fa-caret-up' aria-hidden='true'></i></span>" + globalEthOffset + "</p><p>$ " + result.ethereum.usd + "</p>"
+
+                    $("#eth_status").html(statusHtml);
+                } else if (result.ethereum.usd_24h_change < 0) {
+                    var globalEthOffset = Math.round(result.ethereum.usd_24h_change * 100) / 100 * -1;
+
+                    var statusHtml = "<h4>ETH</h4><p><span class='down-icon'><i class='fa fa-caret-down' aria-hidden='true'></i></span>" + globalEthOffset + "</p><p>$ " + result.ethereum.usd + "</p>"
+
+                    $("#eth_status").html(statusHtml);
+                }
+            },
+            (error) => {
+                console.log("error====>", error);
+
+                setTimeout(function(){ getRateListbyCoin(marketCap); }, 10000);
+            }
+        )
+
+        var idsStr = "";
+
+        for(var i = 0; i < 40; i ++) {
+            idsStr += marketCap[i].id + ",";
+        }
+        
+        idsStr += marketCap[40].id;
+
+        var coinListUrl = "https://api.coingecko.com/api/v3/simple/price?ids=" + idsStr + "&vs_currencies=USD,BTC,ETH,EUR,GBP,JPY,cad";
+
+        fetch(coinListUrl)
+        .then(res => res.json())
+        .then(
+            (coinlist) => {
+
+                for (var j = 1; j < 5; j ++) {
+                    var coinListHtml = "";
+                    
+                    if (j == 1) {
+                        for (var i = 0; i < 11; i ++) {
+
+                        if (i == 0) {
+                            coinListHtml += "<tr><th scope='row'></th><td><div style='width: 25px;'><img src=" + marketCap[i].image + "/></div></td>";
+                        } else {
+                            coinListHtml += "<tr><th scope='row'>" + i + "</th><td><div style='width: 25px;'><img src=" + marketCap[i].image + "/></div></td>";
+                        }
+                        coinListHtml += "<td>" + marketCap[i].name +"</td>";
+                        coinListHtml += "<td> $" + coinlist[marketCap[i].id].usd +"</td>";
+                        coinListHtml += "<td> $" + coinlist[marketCap[i].id].cad +"</td>";
+                        coinListHtml += "<td> ƀ" + coinlist[marketCap[i].id].btc +"</td>";
+                        coinListHtml += "<td> Ξ" + coinlist[marketCap[i].id].eth +"</td>";
+                        coinListHtml += "<td> €" + coinlist[marketCap[i].id].eur +"</td>";
+                        coinListHtml += "<td> £" + coinlist[marketCap[i].id].gbp +"</td>";
+                        coinListHtml += "<td> $" + Math.round(marketCap[i].total_volume) +"</td>";
+                        coinListHtml += "<td> $" + Math.round(marketCap[i].market_cap) +"</td></tr>";
+                        }
+
+                        document.getElementById("coinListTable" + j).innerHTML = coinListHtml;
+                    } else {
+                        for (var i = (j - 1) * 10 + 1; i < j * 10 + 1; i ++) {
+                            coinListHtml += "<tr><th scope='row'>" + i + "</th><td><div style='width: 25px;'><img src=" + marketCap[i].image + "/></div></td>";
+                            coinListHtml += "<td>" + marketCap[i].name +"</td>";
+                            coinListHtml += "<td> $" + coinlist[marketCap[i].id].usd +"</td>";
+                            coinListHtml += "<td> $" + coinlist[marketCap[i].id].cad +"</td>";
+                            coinListHtml += "<td> ƀ" + coinlist[marketCap[i].id].btc +"</td>";
+                            coinListHtml += "<td> Ξ" + coinlist[marketCap[i].id].eth +"</td>";
+                            coinListHtml += "<td> €" + coinlist[marketCap[i].id].eur +"</td>";
+                            coinListHtml += "<td> £" + coinlist[marketCap[i].id].gbp +"</td>";
+                            coinListHtml += "<td> $" + Math.round(marketCap[i].total_volume) +"</td>";
+                            coinListHtml += "<td> $" + Math.round(marketCap[i].market_cap) +"</td></tr>";
+                        }
+
+                        document.getElementById("coinListTable" + j).innerHTML = coinListHtml;
+                    }
+                }
+
+                setTimeout(function(){ getRateListbyCoin(marketCap); }, 5000);
+            },
+            (error) => {
+                console.log("error====>", error);
+
+                setTimeout(function(){ getRateListbyCoin(marketCap); }, 10000);
+            }
+        )
+    }
+
+    init();
+</script>
+
+</html>
